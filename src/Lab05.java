@@ -3,8 +3,11 @@ public class Lab05 {
         Character knight = new Character("Sam","knight");
         Character mage = new Character("Sebastian","mage");
         Equipment none = new Equipment("none","none");
+        Equipment ring = new Equipment("Ring","Ring");
+        Equipment boots = new Equipment("Boots","Boots");
 
         knight.stats(knight,none);
+        knight.stats(knight,boots);
         Character.getStats(knight);
         knight.attack();
         knight.magic();
@@ -12,6 +15,7 @@ public class Lab05 {
         Character.getStats(knight);
 
         mage.stats(mage,none);
+        mage.stats(mage,ring);
         Character.getStats(mage);
         mage.attack();
         mage.magic();

@@ -1,6 +1,6 @@
 public class Equipment implements Accessory {
     public String equipmentName, equipmentType;
-    public double equipmentLvl, equipmentEXP, boostMP, boostSpd;
+    public double equipmentLvl, boostMP, boostSpd;
 
     public Equipment(String equipmentName, String equipmentType) {
         this.equipmentName = equipmentName;
